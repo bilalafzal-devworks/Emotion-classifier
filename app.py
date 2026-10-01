@@ -2,10 +2,10 @@ import streamlit as st
 import joblib
 
 # Load model
-model = joblib.load("emotion_model.pkl")
+model = joblib.load("model/emotion_model.pkl")
 
 # Load TF-IDF vectorizer
-vectorizer = joblib.load("tfidf_vectorizer.pkl")
+vectorizer = joblib.load("model/tfidf_vectorizer.pkl")
 
 # Label mapping
 label_names = {
